@@ -1,1 +1,0 @@
-Just trying to build a personal website :)
