@@ -1,2 +1,2 @@
-# nibba2018_BETA
-BETA version of the nibba2018.github.io website
+# nibba2018.github.io
+A sample of my web development skills
