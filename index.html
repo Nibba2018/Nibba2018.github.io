@@ -1,70 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lifestyle Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        .gapf
+        {
+            padding: 1%;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="header">
-        <div class="inner-header">
-            <div class="logo"><a>Lifestyle Store</a></div>
-            <div class="header-link"><a>Sign up</a></div>
-            <div class="header-link"><a>Login</a></div>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="banner-image">
-            <center>
-            <div class="inner-banner-image">
-                <div class="banner_content">
-                    <h1>We Sell lifestyle</h1>
-                    <p>Flat 40% OFF on premium brands</p>
-                    <a class="button">Shop Now</a>
-                </div>
-            </div>
-            </center>
-        </div>
-
+    <div class="container gapf"></div>
+    <!-- header/navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="items">
-                <a href="#">
-                    <img class="thumbnail" src="images/camera.jpg">
-                    <div class="caption">
-                        <h2>Camera</h2>
-                        <p>Choose among the best available in the world.</p>
-                    </div>
-                </a>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Lifestyle Store</a>
             </div>
-            
-            <div class="items">
-                <a href="#">
-                    <img class="thumbnail" src="images/watch.jpg">
-                    <div class="caption">
-                        <h2>Watches</h2>
-                        <p>Original Watches from the best brands.</p>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="items">
-                <a href="#">
-                    <img class="thumbnail" src="images/shirt.jpg">
-                    <div class="caption">
-                    <h2>Shirts</h2>
-                    <p>Our exclusive collection of shirts.</p>
-                    </div>
-                </a>
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
             </div>
         </div>
+    </nav>
+
+    <div id="banner_image">
+        <center>
+            <div class="container">
+            <div id="banner_content">
+                <h1>We Sell lifestyle</h1>
+                <p>Flat 40% OFF on premium brands</p>
+                <a href="products.html" class="btn btn-danger btn-lg active">Shop Now</a>
+            </div>
+        </center>
+        </div>
     </div>
+    
+    <!-- footer -->
     <footer>
         <div class="container">
-            <p><center>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 0000</center></p>
+            <center>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</center>
         </div>
     </footer>
+    
 </body>
 </html>
